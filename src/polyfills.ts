@@ -79,7 +79,8 @@
  */
 import 'zone.js/dist/zone';  // Included with Angular CLI.
 
-
+/** Needed for Socketio. Donut remember why or if its still fixed */
+(window as any).global = window;
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */

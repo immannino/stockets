@@ -1,0 +1,9 @@
+<div class="container red pa3" *ngIf="error">
+    <h2 *ngIf="error.title">{{error.title}}</h2>
+    <p *ngIf="error.description">
+        {{error.description}}
+    </p>
+    <p *ngIf="error.action">
+        {{error.action}}
+    </p>
+</div>

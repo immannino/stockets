@@ -1,0 +1,12 @@
+tr:nth-child(odd) {
+    background: lightblue;
+}
+
+tr > th {
+    background: black;
+    color: white;
+}
+
+.table {
+    max-height: 500px;
+}

@@ -1,0 +1,11 @@
+<div class="container bg-light-gray pa3">
+    <error [error]="errorText" *ngIf="isInvalid"></error>
+    <div class="pa2" *ngFor="let symbol of symbols; let i = index;">
+        <button class="boxy" (click)="removeStockSymbol(i)">X</button>
+        <span class="ml3">{{symbol}}</span>
+    </div>
+    <div>
+        <input class="boxy-input " type="text" placeholder="stock symbol" [(ngModel)]="tempSymbol">
+        <button class="boxy ml3" (click)="addStockSymbol();">add</button>
+    </div>
+</div>

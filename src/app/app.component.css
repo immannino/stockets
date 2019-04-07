@@ -1,0 +1,74 @@
+.container {
+    border-top: 10px solid royalblue;
+    border-bottom: 10px solid royalblue;
+}
+
+.title {
+    border-bottom: 2px solid royalblue;
+    /* filter: drop-shadow(5px 5px royalblue); */
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.detail-item {
+    border: 1px solid royalblue;
+    margin: 1px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.detail-item:hover {
+    background-color: royalblue;
+}
+
+.detail-item:active {
+    /* background-color: royalblue; */
+}
+
+.stock {
+    border: 2px solid black;
+    border-radius: 15px 15px 0 0;
+}
+
+.stock:hover {
+    border-bottom: none;
+    /* background-color: black;
+    color: white; */
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSd3aGl0ZScvPgogIDxwYXRoIGQ9J00tMSwxIGwyLC0yCiAgICAgICAgICAgTTAsMTAgbDEwLC0xMAogICAgICAgICAgIE05LDExIGwyLC0yJyBzdHJva2U9J2JsYWNrJyBzdHJva2Utd2lkdGg9JzEnLz4KPC9zdmc+Cg=="); 
+    background-repeat: repeat;
+
+    cursor: pointer;
+}
+.stock:active {
+    border-bottom: none;
+    /* background-color: black;
+    color: white; */
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSd3aGl0ZScvPgogIDxwYXRoIGQ9J00tMSwxIGwyLC0yCiAgICAgICAgICAgTTAsMTAgbDEwLC0xMAogICAgICAgICAgIE05LDExIGwyLC0yJyBzdHJva2U9J2JsYWNrJyBzdHJva2Utd2lkdGg9JzEnLz4KPC9zdmc+Cg=="); 
+    background-repeat: repeat;
+
+}
+
+.stock-active {
+    border-bottom: none;
+    /* background-color: black;
+    color: white; */
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSd3aGl0ZScvPgogIDxwYXRoIGQ9J00tMSwxIGwyLC0yCiAgICAgICAgICAgTTAsMTAgbDEwLC0xMAogICAgICAgICAgIE05LDExIGwyLC0yJyBzdHJva2U9J2JsYWNrJyBzdHJva2Utd2lkdGg9JzEnLz4KPC9zdmc+Cg=="); 
+    background-repeat: repeat;
+
+}
+
+.info-container {
+    border: 2px solid black;
+    box-shadow: 5px 5px black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 600px) {
+    .info-container {
+        width: 100%;
+    }
+}

@@ -1,0 +1,19 @@
+<div *ngIf="stock" class="overflow-container table">
+    <h2 class="">{{stock.symbol}}</h2>
+    <table *ngIf="stock.events">
+        <tr>
+            <th>id</th>
+            <th>Bid price</th>
+            <th>Asking price</th>
+            <th>Last Sale price</th>
+            <th>Last updated</th>
+        </tr>
+        <tr *ngFor="let event of stock.events">
+            <td>{{event.seq}}</td>
+            <td>{{event.bidPrice}}</td>
+            <td>{{event.askPrice}}</td>
+            <td>{{event.lastSalePrice}}</td>
+            <td>{{parseDate(event.lastUpdated)}}</td>
+        </tr>
+    </table>
+</div>
